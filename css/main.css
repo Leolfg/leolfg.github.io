@@ -1,0 +1,62 @@
+/*general*/
+
+body {
+	width: 100%;
+	margin:0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	font-family: 'Helvetica Neue', sans-serif;
+	background-color:black;
+    }
+
+    #conteneur {
+	width: 90%;
+	margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        color: white;
+        }
+    
+      p {
+        font-size: 18px;
+        color: white;
+        }
+
+    #header {
+        width: 1000px;
+        display: inline-flex;	
+        align-items: center;
+    }
+
+    #myhead {
+    width: 20%;
+    }
+
+    #lucky {
+    width: 25%;
+    }
+
+
+    #project_list {
+	width: 20%;
+	margin-top: 5%;
+    }
+
+    #images{
+    display: inline;
+    margin-left: 15%;
+    align-items: right;
+    }
+
+    footer {
+        width: 100%;
+    }
+    
+    p#footer {
+        font-size: 13px;
+        text-align: center;
+        color: white;
+    }

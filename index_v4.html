@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="module" src="js/model-viewer.js"></script>
+    <script type="noexecute" nomodule src="js/model-viewer-legacy.js"></script>
+
+<style>
+
+body { margin:0; /* This is used to reset any browser-default margins */ }
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(font/Avara-Bold_web.otf);
+}
+    
+div.bg_color {
+    position: relative;
+    height:100vh;
+    background-color: black;
+} 
+
+div.leo_head {
+  position: absolute;
+  top: 25%;
+  left: 37%;
+  width: 50vh;
+  height: 50vh;
+  /*border: 3px solid #73AD21;*/
+}
+
+#leo_head{
+    height:100%;
+}
+
+div.menu {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 20vh;
+  height: 50vh;
+  /*border: 3px solid; color: royalblue;*/
+}
+
+a {
+    font-family: myFirstFont;
+    list-style-type: none;
+      font-size: 35px;
+      color: white;
+      text-decoration: none;
+      padding-left: 5%;
+    }
+
+    a:hover {
+        font-family: myFirstFont;
+        list-style-type: none;
+      font-size: 35px;
+      color: grey;
+      text-decoration: none;
+      padding-left: 5%;
+    } 
+    
+
+div.lucky {
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  width: 20vh;
+  height: 10vh;
+  /*border: 3px solid; color: sandybrown;*/
+}
+
+#lucky_img{
+    height:100%;
+}
+
+div.text {
+  font-family: myFirstFont;
+  position: absolute;
+  bottom: 5%;
+  left: 40%;
+  width: 45vh;
+  height: 10vh;
+  /*border: 3px solid #73AD21;*/
+}
+
+
+#br_pad {
+padding : 35%;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    }
+
+</style>
+</head>
+<body>
+
+
+<div class="bg_color">
+
+    <div class="leo_head">
+        <model-viewer src="models/leo_head.gltf" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+    </div>
+
+    <div class="menu">
+        <a href="#">PDF</a>
+        <div id=br_pad></div>
+        <a href="#">Vimeo</a>
+        <div id=br_pad></div>
+        <a href="#">CV</a>
+    </div>
+
+    <div class="lucky">
+        <img id="lucky_img" src="img/lucky copieNB.png" alt="luckybutton">
+    </div>
+
+    <div class="text">
+        <footer><i>Léo Laffargue,<br>Interaction Designer,<br>Student @ENJMIN.</i></footer>
+    </div>
+
+</div>
+
+</body>
+</html>

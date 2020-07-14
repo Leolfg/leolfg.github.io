@@ -1,0 +1,46 @@
+
+   /* * {
+      box-sizing: border-box;
+    }*/
+    
+    body {
+        width: 100%;
+        margin:0;
+        font-family: 'Helvetica Neue', sans-serif;
+        background-color: black;
+    }
+    
+    /* Style the navigation menu */
+    #menu {
+      padding: 20px;
+    }
+
+    
+    /* Style the list inside the menu */
+    #menu a {
+      list-style-type: none;
+      font-size: 35px;
+      color: white;
+      text-decoration: none;
+      padding-left: 5%;
+    }
+
+    #br_pad {
+    padding : 20px;
+    }
+    
+    #head_img{
+        width: 400px;
+        margin-left: 33%;
+        margin-top: -10%;
+    }
+
+    #leo_head {
+    width: 100%;
+    }
+    
+    /* Style the footer */
+    footer {
+    text-align: center;
+    color: white;
+    }
