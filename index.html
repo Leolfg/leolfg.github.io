@@ -78,12 +78,11 @@ div.lucky {
 }
 
 #lucky_img{
-  background-image: url('img/lucky_PNG_NB.png');
     height:100%;
 }
 
 #lucky_img:hover{
-  background-image: url('img/lucky_PNG_ROSE.png');
+  cursor: pointer;
 }
 
 div.text {
@@ -127,7 +126,7 @@ footer {
     </div>
 
     <div class="lucky">
-        <img id="lucky_img" alt="luckybutton">
+        <img id="lucky_img" src="img/lucky_PNG_NB.png" alt="luckybutton" onmouseover="this.src='img/lucky_PNG_ROSE.png';" onmouseout="this.src='img/lucky_PNG_NB.png';">
     </div>
 
     <div class="text">
