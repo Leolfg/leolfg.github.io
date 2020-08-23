@@ -45,12 +45,12 @@
         font-family: mySecondFont;
         list-style-type: none;
           font-size: 35px;
-          color: white;
+          color: rgb(255, 93, 228);;
           text-decoration: none;
         }
-        
+
         a.links:hover {
-            color: rgb(255, 93, 228);
+            color: white;
             text-decoration: underline;
         } 
 
@@ -58,7 +58,7 @@
         font-family: myFirstFont;
         list-style-type: none;
           font-size: 15px;
-          color:  rgb(255, 93, 228);;
+          color:  white;
           text-decoration: none;
  
     }
