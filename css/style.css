@@ -36,9 +36,9 @@
       position: absolute;
       top: 25%;
       left: 10%;
-      width: 20vh;
+      width: 38vh;
       height: 50vh;
-      /*border: 3px solid; color: royalblue;*/
+      border: 3px solid; color: royalblue;
     }
     
     a {
@@ -47,11 +47,19 @@
           font-size: 35px;
           color: white;
           text-decoration: none;
-          padding-left: 5%;
-          text-align: center;
+
     
         }
-    
+
+    a.presentation {
+        font-family: myFirstFont;
+        list-style-type: none;
+          font-size: 15px;
+          color: white;
+          text-decoration: none;
+ 
+    }
+
         a:hover {
             color: rgb(255, 93, 228);
         } 
@@ -59,7 +67,7 @@
     
     
     #br_pad {
-    padding : 35%;
+    padding : 12%;
     }
     
     
