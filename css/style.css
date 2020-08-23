@@ -34,11 +34,11 @@
     
     div.menu {
       position: absolute;
-      top: 25%;
+      top: 20%;
       left: 10%;
       width: 38vh;
       height: 50vh;
-      border: 3px solid; color: royalblue;
+      /*border: 3px solid; color: royalblue;*/
     }
     
     a {
@@ -62,6 +62,7 @@
 
         a:hover {
             color: rgb(255, 93, 228);
+            text-decoration: underline;
         } 
         
     
@@ -69,17 +70,8 @@
     #br_pad {
     padding : 12%;
     }
-    
-    
-    footer {
-        text-align: center;
-        color: white;
-        font-family: myFirstFont;
-        font-size: 15px;
 
-      position: absolute;
-      bottom: 2%;
-      left: 40%;
-      width: 45vh;
-      height: 10vh;
+    #br_pad_2 {
+        padding : 8%;
         }
+    
