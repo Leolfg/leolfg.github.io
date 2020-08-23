@@ -34,11 +34,11 @@
     
     div.menu {
       position: absolute;
-      top: 5%;
-      left: 10%;
-      width: 38vh;
-      height: 50vh;
-      /*border: 3px solid; color: royalblue;*/
+      top: 8%;
+      left: 3%;
+      width: 50vh;
+      height: 100vh;
+      border: 3px solid; color: royalblue;
     }
     
     a.links {
