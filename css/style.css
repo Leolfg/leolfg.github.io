@@ -34,7 +34,7 @@
     
     div.menu {
       position: absolute;
-      top: 20%;
+      top: 5%;
       left: 10%;
       width: 38vh;
       height: 50vh;
@@ -44,7 +44,7 @@
     a.links {
         font-family: mySecondFont;
         list-style-type: none;
-          font-size: 35px;
+          font-size: 30px;
           color: rgb(255, 93, 228);
           text-decoration: none;
         }
