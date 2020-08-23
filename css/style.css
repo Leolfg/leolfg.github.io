@@ -2,8 +2,14 @@
     
     @font-face {
        font-family: myFirstFont;
-       src: url(font/Avara-Bold_web.otf);
+       src: url(../font/Avara-Bold_web.otf);
     }
+
+    @font-face {
+        font-family: mySecondFont;
+        src: url(../font/Avara-Bold_Italic_web.otf);
+     }
+
     
     
     div.bg_color {
@@ -15,7 +21,6 @@
     div.leo_head {
       position: relative;
       height: 100vh;
-      /*border: 3px solid white;*/
     }
     
     model-viewer {
@@ -33,11 +38,11 @@
       left: 10%;
       width: 20vh;
       height: 50vh;
-      /*border: 3px solid; color: royalblue;*/
+      border: 3px solid; color: royalblue;
     }
     
     a {
-        font-family: myFirstFont;
+        font-family: mySecondFont;
         list-style-type: none;
           font-size: 35px;
           color: white;
@@ -65,7 +70,7 @@
         font-size: 15px;
 
       position: absolute;
-      bottom: 5%;
+      bottom: 2%;
       left: 40%;
       width: 45vh;
       height: 10vh;
