@@ -41,29 +41,29 @@
       /*border: 3px solid; color: royalblue;*/
     }
     
-    a {
+    a.links {
         font-family: mySecondFont;
         list-style-type: none;
           font-size: 35px;
           color: white;
           text-decoration: none;
-
-    
         }
+        
+        a.links:hover {
+            color: rgb(255, 93, 228);
+            text-decoration: underline;
+        } 
 
     a.presentation {
         font-family: myFirstFont;
         list-style-type: none;
           font-size: 15px;
-          color: white;
+          color:  rgb(255, 93, 228);;
           text-decoration: none;
  
     }
 
-        a:hover {
-            color: rgb(255, 93, 228);
-            text-decoration: underline;
-        } 
+
         
     
     
