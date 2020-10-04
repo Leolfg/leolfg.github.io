@@ -1,4 +1,4 @@
-    body { margin:0; /* This is used to reset any browser-default margins */ }
+    body { margin:0; background-color: black; /* This is used to reset any browser-default margins */ }
     
     @font-face {
        font-family: myFirstFont;
@@ -15,7 +15,7 @@
     div.bg_color {
         position: relative;
         height:100vh;
-        background-color: black;
+        /*background-color: black;*/
     } 
     
     div.leo_head {
