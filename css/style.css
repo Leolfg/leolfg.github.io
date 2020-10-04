@@ -40,6 +40,16 @@
       height: 60vh;
       /*border: 3px solid; color: royalblue;*/
     }
+
+    div.resume {
+      position: absolute;
+      top: 5%;
+      left: 6%;
+      width: 50vh;
+      height: 85vh;
+      border: 3px solid; color: royalblue;
+    }
+    
     
     a.links {
         font-family: mySecondFont;
@@ -61,6 +71,25 @@
           text-decoration: none;
  
     }
+
+    a.back {
+      font-family: myFirstFont;
+      list-style-type: none;
+        font-size: 15px;
+        color: rgb(255, 93, 228);
+        text-decoration: none;
+      }
+      a.back:hover {
+        text-decoration: underline;
+    } 
+
+    a.resume-title {
+      font-family: mySecondFont;
+      list-style-type: none;
+        font-size: 30px;
+        color: rgb(255, 93, 228);
+        text-decoration: none;
+      }
 
 
         
