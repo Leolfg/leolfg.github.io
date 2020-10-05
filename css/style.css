@@ -1,12 +1,12 @@
     body { margin:0; background-color: black; /* This is used to reset any browser-default margins */ }
     
     @font-face {
-       font-family: myFirstFont;
+       font-family: avara_base;
        src: url(../font/Avara-Bold_web.otf);
     }
 
     @font-face {
-        font-family: mySecondFont;
+        font-family: avara_ital;
         src: url(../font/Avara-Bold_Italic_web.otf);
      }
 
@@ -60,57 +60,60 @@
     }
     
     
-    a.links {
-        font-family: mySecondFont;
-        list-style-type: none;
-          font-size: 30px;
-          color: rgb(255, 93, 228);
-          text-decoration: none;
-        }
-
-        a.links:hover {
-            text-decoration: underline;
-        } 
-
-    a.presentation {
-        font-family: myFirstFont;
+    /* Text classes*/
+    a.basictext {
+        font-family: avara_base;
         list-style-type: none;
           font-size: 15px;
           color:  white;
           text-decoration: none;
- 
     }
 
-    a.presentation-pf {
-      font-family: myFirstFont;
+    a.basictext_link {
+      font-family: avara_base;
       list-style-type: none;
         font-size: 15px;
         color:  white;
         text-decoration: none;
+    }
 
-  }
-  a.presentation-pf:hover {
-    text-decoration: underline;
-} 
-
-    a.back {
-      font-family: myFirstFont;
-      list-style-type: none;
-        font-size: 15px;
-        color: rgb(255, 93, 228);
-        text-decoration: none;
-      }
-      a.back:hover {
-        text-decoration: underline;
+    a.basictext_link:hover {
+      text-decoration: underline;
     } 
 
-    a.resume-title {
-      font-family: mySecondFont;
+    a.pinklinks {
+      font-family: avara_ital;
+      list-style-type: none;
+      font-size: 30px;
+      color: rgb(255, 93, 228);
+      text-decoration: none;
+    }
+
+    a.pinklinks:hover {
+      text-decoration: underline;
+    } 
+
+    a.pinktitles {
+      font-family: avara_ital;
       list-style-type: none;
         font-size: 30px;
         color: rgb(255, 93, 228);
         text-decoration: none;
-      }
+    }
+
+
+    a.back {
+      font-family: avara_base;
+      list-style-type: none;
+        font-size: 15px;
+        color: rgb(255, 93, 228);
+        text-decoration: none;
+    }
+      a.back:hover {
+        text-decoration: underline;
+    } 
+
+
 
 
         
