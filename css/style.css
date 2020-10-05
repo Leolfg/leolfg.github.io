@@ -53,9 +53,9 @@
     div.project {
       position: absolute;
       top: 5%;
-      left: 5%;
-      width: 100vh;
-      height: 100vh;
+      left: 6%;
+      width: 50vh;
+      height: 115vh;
       border: 3px solid; color: royalblue;
     }
     
