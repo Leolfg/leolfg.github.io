@@ -20,7 +20,7 @@ model-viewer {
   border: 3px solid; color: red;
   width:80%;
   max-width: 600px;
-  height: 99%;
+  height: 50%;
   left:10%;
   background-color: black;
   --progress-bar-color: white;
