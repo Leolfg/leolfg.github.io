@@ -16,8 +16,8 @@
 
     div.leo_head {
       position: absolute;
-      height:70vh;
-      width:70vh;
+      height:80%;
+      width:40%;
       top:10%;
       left:10%;
       border: 3px solid; color: purple;
