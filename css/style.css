@@ -15,11 +15,12 @@
     }
 
     div.leo_head {
-      position: relative;
-      height:95vh;
-      width:95vh;
+      position: absolute;
+      height:70vh;
+      width:70vh;
+      top:10%;
       left:10%;
-      border: 3px solid; color: green;
+      border: 3px solid; color: purple;
       z-index: 0;
     }
     /*pas absolute sinon sur mobile berk*/
