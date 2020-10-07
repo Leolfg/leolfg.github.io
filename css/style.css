@@ -18,8 +18,8 @@
       position: relative;
       height:95vh;
       width:95vh;
-      left:20%;
-      border: 3px solid; color: pink;
+      left:10%;
+      border: 3px solid; color: green;
       z-index: 0;
     }
     /*pas absolute sinon sur mobile berk*/
