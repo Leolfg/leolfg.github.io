@@ -19,7 +19,7 @@
       z-index: -1;
       /*left: 5%;*/
       width: 100%;
-      /*border: 3px solid; color: royalblue;*/
+      border: 3px solid; color: royalblue;
     }
 
     model-viewer {
