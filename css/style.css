@@ -1,85 +1,93 @@
-    body { margin:0; background-color: black; /* This is used to reset any browser-default margins */ }
-    
-    @font-face {
-       font-family: avara_base;
-       src: url(../font/Avara-Bold_web.otf);
+    body {
+      margin: 0;
+      background-color: black;
+      /* This is used to reset any browser-default margins */
     }
 
     @font-face {
-        font-family: avara_ital;
-        src: url(../font/Avara-Bold_Italic_web.otf);
-     }
+      font-family: avara_base;
+      src: url(../font/Avara-Bold_web.otf);
+    }
 
-    
-    
-    div.bg_color {
-        position: relative;
-        height:100vh;
-        /*background-color: black;*/
-    } 
-    
+    @font-face {
+      font-family: avara_ital;
+      src: url(../font/Avara-Bold_Italic_web.otf);
+    }
+
     div.leo_head {
       position: relative;
-      height: 100vh;
+      height: 98vh;
+      /*border: 3px solid; color: royalblue;*/
     }
-    
+
     model-viewer {
       width: 100%;
       height: 100%;
-      background-color:black;
+      background-color: black;
       --progress-bar-color: white;
       --poster-color: black;
       --poster-mask: black;
     }
-    
+
     div.menu {
       position: absolute;
-      top: 10%;
-      left: 6%;
+      top: 5%;
+      left: 5%;
       width: 38vh;
       height: 60vh;
-      /*border: 3px solid; color: royalblue;*/
+      border: 3px solid; color: royalblue;
     }
 
     div.resume {
       position: absolute;
       top: 5%;
-      left: 6%;
+      left: 5%;
       width: 50vh;
       height: 85vh;
-      /*border: 3px solid; color: royalblue;*/
+      border: 3px solid; color: pink;
     }
 
+    div.project-menu {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      width: 50vh;
+      height: 55vh;
+      border: 3px solid;
+      color: ghostwhite;
+    }
+    
     div.project {
       position: absolute;
       top: 5%;
-      left: 6%;
+      left: 5%;
       width: 50vh;
       height: 115vh;
-      border: 3px solid; color: royalblue;
+      border: 3px solid;
+      color: royalblue;
     }
-    
-    
+
     /* Text classes*/
+
     a.basictext {
-        font-family: avara_base;
-        list-style-type: none;
-          font-size: 15px;
-          color:  white;
-          text-decoration: none;
+      font-family: avara_base;
+      list-style-type: none;
+      font-size: 15px;
+      color: white;
+      text-decoration: none;
     }
 
     a.basictext_link {
       font-family: avara_base;
       list-style-type: none;
-        font-size: 15px;
-        color:  white;
-        text-decoration: none;
+      font-size: 15px;
+      color: white;
+      text-decoration: none;
     }
 
     a.basictext_link:hover {
       text-decoration: underline;
-    } 
+    }
 
     a.pinklinks {
       font-family: avara_ital;
@@ -91,39 +99,32 @@
 
     a.pinklinks:hover {
       text-decoration: underline;
-    } 
+    }
 
     a.pinktitles {
       font-family: avara_ital;
       list-style-type: none;
-        font-size: 30px;
-        color: rgb(255, 93, 228);
-        text-decoration: none;
+      font-size: 30px;
+      color: rgb(255, 93, 228);
+      text-decoration: none;
     }
-
 
     a.back {
       font-family: avara_base;
       list-style-type: none;
-        font-size: 15px;
-        color: rgb(255, 93, 228);
-        text-decoration: none;
+      font-size: 15px;
+      color: rgb(255, 93, 228);
+      text-decoration: none;
     }
-      a.back:hover {
-        text-decoration: underline;
-    } 
 
+    a.back:hover {
+      text-decoration: underline;
+    }
 
-
-
-        
-    
-    
     #br_pad {
-    padding : 12%;
+      padding: 12%;
     }
 
     #br_pad_2 {
-        padding : 8%;
-        }
-    
+      padding: 8%;
+    }
