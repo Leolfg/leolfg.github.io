@@ -27,8 +27,11 @@ div.leo_head {
 
 
 model-viewer {
-  width: 100%;
-  height: 100%;
+  position:absolute;
+  bottom: 0;
+  border: 3px solid; color: red;
+  width: 99%;
+  height: 99%;
   background-color: black;
   --progress-bar-color: white;
   --poster-color: black;
