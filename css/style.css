@@ -17,7 +17,7 @@ body {
 model-viewer {
   position:absolute;
   bottom: 0;
-  border: 3px solid; color: red;
+  /*border: 3px solid; color: red;*/
   width:89%;
   max-width: 600px;
   height: 70%;
@@ -34,7 +34,7 @@ div.menu {
   left: 5%;
   width: 40vh;
   height: 0vh; /*w/ 0 height, easier play w/ model*/
-  border: 3px solid; color: royalblue;
+  /*border: 3px solid; color: royalblue;*/
   z-index: 1;
 }
 
@@ -44,7 +44,7 @@ div.resume {
   left: 5%;
   width: 45vh;
   height: 85vh;
-  border: 3px solid; color: pink;
+  /*border: 3px solid; color: pink;*/
 }
 
 div.project-menu {
@@ -53,8 +53,8 @@ div.project-menu {
   left: 5%;
   width: 45vh;
   height: 55vh;
-  border: 3px solid;
-  color: ghostwhite;
+  /*border: 3px solid;
+  color: ghostwhite;*/
 }
 
 div.project {
@@ -63,8 +63,8 @@ div.project {
   left: 5%;
   width: 45vh;
   height: 115vh;
-  border: 3px solid;
-  color: royalblue;
+  /*border: 3px solid;
+  color: royalblue;*/
 }
 
 /* Text classes*/
