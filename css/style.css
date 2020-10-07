@@ -18,9 +18,9 @@ model-viewer {
   position:absolute;
   bottom: 0;
   border: 3px solid; color: red;
-  width:80%;
+  width:89%;
   max-width: 600px;
-  height: 50%;
+  height: 70%;
   left:10%;
   background-color: black;
   --progress-bar-color: white;
