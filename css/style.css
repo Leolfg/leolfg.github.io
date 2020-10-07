@@ -38,8 +38,8 @@
       position: absolute;
       top: 10%;
       left: 5%;
-      width: 45vh;
-      height: 65vh;
+      width: 40vh;
+      height: 0vh; /*w/ 0 height, easier play w/ model*/
       border: 3px solid; color: royalblue;
       z-index: 1;
     }
