@@ -20,7 +20,7 @@
       width:40%;
       top:10%;
       left:10%;
-      border: 3px solid; color: purple;
+      border: 3px solid; color: yellow;
       z-index: 0;
     }
     /*pas absolute sinon sur mobile berk*/
