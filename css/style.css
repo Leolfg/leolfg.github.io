@@ -17,8 +17,8 @@
     div.leo_head {
       position: relative;
       height: 98vh;
-      border: 3px solid; color: pink;
-      z-index: -1;
+      /*border: 3px solid; color: pink;*/
+      z-index: 0;
     }
 
     model-viewer {
@@ -37,6 +37,7 @@
       width: 45vh;
       height: 65vh;
       border: 3px solid; color: royalblue;
+      z-index: 1;
     }
 
     div.resume {
