@@ -15,9 +15,11 @@
     }
 
     div.leo_head {
-      position: relative;
-      height: 98vh;
-      /*border: 3px solid; color: pink;*/
+      position: absolute;
+      height:95vh;
+      width:95vh;
+      left:20%;
+      border: 3px solid; color: pink;
       z-index: 0;
     }
 
@@ -32,7 +34,7 @@
 
     div.menu {
       position: absolute;
-      top: 5%;
+      top: 10%;
       left: 5%;
       width: 45vh;
       height: 65vh;
@@ -42,7 +44,7 @@
 
     div.resume {
       position: absolute;
-      top: 5%;
+      top: 10%;
       left: 5%;
       width: 45vh;
       height: 85vh;
@@ -51,7 +53,7 @@
 
     div.project-menu {
       position: absolute;
-      top: 5%;
+      top: 10%;
       left: 5%;
       width: 45vh;
       height: 55vh;
@@ -61,7 +63,7 @@
     
     div.project {
       position: absolute;
-      top: 5%;
+      top: 10%;
       left: 5%;
       width: 45vh;
       height: 115vh;
