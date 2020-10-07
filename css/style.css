@@ -15,31 +15,21 @@
     }
 
     div.leo_head {
-      position: absolute;
-      height:99%;
-      width:89%;
+      position: relative;
       max-width: 900px;
+      min-height: 99vh;
       left:10%;
       border: 3px solid; color: yellow;
       z-index: 0;
     }
 
-    #header {
-      position: absolute;
-      width:99%;
-      height:99%;
-      max-width:750px;
-      left:10%;
-      color: ghostwhite;
-      border: 3px solid; color: green;
-    }
-    
-    #header-content {
+    div.leo_head_content {
       position: absolute;
       bottom: 0;
       left: 0;
-      color: ghostwhite;
+      border: 3px solid; color: red;
     }
+
 
     model-viewer {
       width: 100%;
