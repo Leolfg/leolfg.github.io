@@ -15,7 +15,7 @@
     }
 
     div.leo_head {
-      position: absolute;
+      position: relative;
       z-index: -1;
       /*left: 5%;*/
       width: 100%;
