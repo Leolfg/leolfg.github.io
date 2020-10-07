@@ -16,10 +16,10 @@
 
     div.leo_head {
       position: relative;
-      z-index: 0;
+      /*z-index: 0;*/
       /*left: 5%;*/
       width: 100%;
-      /*mettre une border ça casse tout*/
+      border: 3px solid; color: royalblue;
     }
 
     model-viewer {
