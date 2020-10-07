@@ -23,14 +23,6 @@
       z-index: 0;
     }
 
-    div.leo_head_content {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      border: 3px solid; color: red;
-    }
-
-
     model-viewer {
       width: 100%;
       height: 100%;
@@ -38,6 +30,7 @@
       --progress-bar-color: white;
       --poster-color: black;
       --poster-mask: black;
+      bottom:0;
     }
 
     div.menu {
