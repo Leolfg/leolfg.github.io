@@ -15,9 +15,11 @@
     }
 
     div.leo_head {
-      position: relative;
-      height: 98vh;
-      /*border: 3px solid; color: royalblue;*/
+      position: absolute;
+      z-index: -1;
+      /*left: 5%;*/
+      width: 100vh;
+      border: 3px solid; color: royalblue;
     }
 
     model-viewer {
