@@ -14,24 +14,14 @@ body {
   src: url(../font/Avara-Bold_Italic_web.otf);
 }
 
-div.leo_head {
-  position: absolute;
-  height:99%;
-  width:89%;
-  max-width: 900px;
-  left:10%;
-  border: 3px solid; color: yellow;
-  z-index: 0;
-}
-/*pas absolute sinon sur mobile berk*/
-
-
 model-viewer {
   position:absolute;
   bottom: 0;
   border: 3px solid; color: red;
-  width: 99%;
-  height: 99%;
+  width:99%;
+  max-width: 70vh;
+  height: 90%;
+  left:10%;
   background-color: black;
   --progress-bar-color: white;
   --poster-color: black;
