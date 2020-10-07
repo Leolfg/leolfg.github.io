@@ -30,8 +30,8 @@ model-viewer {
 
 div.menu {
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 5%;
+  left: 2.5%;
   width: 40vh;
   height: 0vh; /*w/ 0 height, easier play w/ model*/
   /*border: 3px solid; color: royalblue;*/
@@ -40,8 +40,8 @@ div.menu {
 
 div.resume {
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 5%;
+  left: 2.5%;
   width: 45vh;
   height: 85vh;
   /*border: 3px solid; color: pink;*/
@@ -49,8 +49,8 @@ div.resume {
 
 div.project-menu {
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 5%;
+  left: 2.5%;;
   width: 45vh;
   height: 55vh;
   /*border: 3px solid;
@@ -59,8 +59,8 @@ div.project-menu {
 
 div.project {
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 5%;
+  left: 2.5%;
   width: 45vh;
   height: 115vh;
   /*border: 3px solid;
