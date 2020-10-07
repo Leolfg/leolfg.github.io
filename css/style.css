@@ -71,8 +71,8 @@ div.project-text {
   left: 2.5%;
   width: 60vh;
   height: 115vh;
-  border: 3px solid;
-  color: royalblue;
+  /*border: 3px solid;
+  color: royalblue;*/
 }
 
 div.project-img {
@@ -81,8 +81,8 @@ div.project-img {
   left: 2.5%;
   width: 50%;
   height: 125%;
-  border: 3px solid;
-  color: royalblue;
+  /*border: 3px solid;
+  color: royalblue;*/
 }
 
 
