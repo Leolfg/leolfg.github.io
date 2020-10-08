@@ -75,25 +75,11 @@ div.project-text {
 }
 
 div.project-img {
-  position: absolute;
-  top: 100%;
-  left: 2.5%;
   min-width: 50%;
-  max-width: 890px;
+  max-width: 900px;
   border: 3px solid;
-  color: blueviolet;
+  color: pink;
 }
-
-iframe {
-  position: absolute;
-  top: 20%;
-  left: 2.5%;
-  min-width: 40%;
-  max-width: 800px;
-  height:99%;
-  border: 3px solid;
-  color: blueviolet;
- }
 
 
 /* Text classes*/
