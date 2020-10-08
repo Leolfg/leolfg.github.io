@@ -75,12 +75,11 @@ div.project-text {
 }
 
 div.project-img {
-  min-width: 50%;
-  max-width: 900px;
+
+  width:100%;
   border: 3px solid;
   color: pink;
 }
-
 
 /* Text classes*/
 
