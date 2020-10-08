@@ -70,15 +70,6 @@ div.project-text {
   top: 5%;
   left: 2.5%;
   width: 45vh;
-  border: 3px solid;
-  color: blue;
-}
-
-div.project-img {
-
-  width:100%;
-  border: 3px solid;
-  color: pink;
 }
 
 /* Text classes*/
