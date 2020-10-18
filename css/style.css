@@ -61,8 +61,7 @@ div.project-menu {
   left: 2.5%;;
   width: 45vh;
   height: 55vh;
-  border: 3px solid;
-  color: ghostwhite;
+
 }
 
 div.project-text {
@@ -70,18 +69,16 @@ div.project-text {
   top: 5%;
   left: 2.5%;
   width: 45vh;
-  border: 3px solid;
-  color: ghostwhite;
+
 }
 
 div.project-img {
   position: absolute;
-  top: 40vh;
+  top: 35vh;
   left: 2.5%;
   width: 97.5%;
   max-width: 600px;
-  border: 3px solid;
-  color: ghostwhite;
+
 }
 
 /* Text classes*/
