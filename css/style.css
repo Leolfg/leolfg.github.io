@@ -15,13 +15,13 @@ body {
 }
 
 model-viewer {
-  position:absolute;
+  position: absolute;
   bottom: 0;
   /*border: 3px solid; color: red;*/
-  width:89%;
+  width: 89%;
   max-width: 600px;
   height: 70%;
-  left:10%;
+  left: 10%;
   background-color: black;
   --progress-bar-color: white;
   --poster-color: black;
@@ -33,7 +33,8 @@ div.menu {
   top: 5%;
   left: 2.5%;
   width: 40vh;
-  height: 0vh; /*w/ 0 height, easier play w/ model*/
+  height: 0vh;
+  /*w/ 0 height, easier play w/ model*/
   /*border: 3px solid; color: royalblue;*/
   z-index: 1;
 }
@@ -41,10 +42,10 @@ div.menu {
 div.footer {
   position: absolute;
   bottom: 5%;
-  left: 2.5%;/*w/ 0 height, easier play w/ model*/
+  left: 2.5%;
+  /*w/ 0 height, easier play w/ model*/
   z-index: 1;
 }
-
 
 div.resume {
   position: absolute;
@@ -58,10 +59,10 @@ div.resume {
 div.project-menu {
   position: absolute;
   top: 5%;
-  left: 2.5%;;
+  left: 2.5%;
+  ;
   width: 45vh;
   height: 55vh;
-
 }
 
 div.project-text {
@@ -69,7 +70,6 @@ div.project-text {
   top: 5%;
   left: 2.5%;
   width: 45vh;
-
 }
 
 div.project-img {
@@ -78,7 +78,6 @@ div.project-img {
   left: 2.5%;
   width: 97.5%;
   max-width: 600px;
-
 }
 
 /* Text classes*/
