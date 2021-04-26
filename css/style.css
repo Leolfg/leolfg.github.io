@@ -88,7 +88,11 @@ div.project-img {
 }
 
 .vimeovideo{
-width: 580px;
+/*width: 580px;*/
+
+display:block;
+width:99%;
+max-width: 600px;
 height: 330px;
 border: 3px solid; color: royalblue
 }
