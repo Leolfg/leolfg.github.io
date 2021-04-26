@@ -61,7 +61,7 @@ div.project-menu {
   left: 2.5%;
   width: 45vh;
   height: 80vh;
-  border: 3px solid; color: royalblue;
+  /*border: 3px solid; color: royalblue;*/
 }
 
 div.project-global {
@@ -70,14 +70,14 @@ div.project-global {
   left: 2.5%;
   width: 97.5%;
   max-width: 600px;
-  border: 3px solid; color: yellow
+  /*border: 3px solid; color: yellow*/
 }
 
 div.project-text {
   position: relative;
   top: 10%;
   width: 45vh;
-  border: 3px solid; color: pink;
+  /*border: 3px solid; color: pink;*/
 }
 
 div.project-img {
@@ -85,7 +85,7 @@ div.project-img {
   top: 3vh;
   width: 99%;
   max-width: 600px;
-  border: 3px solid; color: white
+  /*border: 3px solid; color: white*/
 }
 
 div.vimeo-div{
