@@ -63,24 +63,33 @@ div.project-menu {
   height: 80vh;
 }
 
-div.project-text {
+div.project-global {
   position: absolute;
-  top: 5%;
-  left: 2.5%;
-  width: 45vh;
-  /*border: 3px solid; color: royalblue;*/
-}
-
-div.project-img {
-  position: absolute;
-  top: 55vh;
+  top: 5vh;
   left: 2.5%;
   width: 97.5%;
   max-width: 600px;
+  border: 3px solid; color: yellow
+}
+
+div.project-text {
+  position: relative;
+  top: 10%;
+  width: 45vh;
+  border: 3px solid; color: pink;
+}
+
+div.project-img {
+  position: relative;
+  top: 3vh;
+  width: 97.5%;
+  max-width: 600px;
+  border: 3px solid; color: white
 }
 
 .vimeovideo{
 height: 350px;
+border: 3px solid; color: royalblue
 }
 
 
