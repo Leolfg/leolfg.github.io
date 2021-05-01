@@ -36,18 +36,18 @@ div.menu {
   max-width: 600px;
   height: 40vh;
   /*w/ 0 height, easier play w/ model*/
-  border: 3px solid; color: royalblue;
+  /*border: 3px solid; color: royalblue;*/
   z-index: 1;
 }
 
 div.menu-text {
   position: relative;
-  border: 3px solid; color: pink;
+  /*border: 3px solid; color: pink;*/
 }
 
 div.menu-text2 {
   position: relative;
-  border: 3px solid; color: paleturquoise;
+  /*border: 3px solid; color: paleturquoise;*/
   top:3vh;
 }
 
